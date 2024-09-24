@@ -21,7 +21,7 @@ def client():
     print(f"[C]: output {decoded}")
 
     # Open the input and output files
-    with open('in-proj.txt', 'r') as infile, open('out-pro.txt', 'w') as outfile:
+    with open('in-proj.txt', 'r') as infile, open('out-proj.txt', 'w') as outfile:
         lines = infile.readlines()
         print(f"[C]: Total lines to send: {len(lines)}")
         for idx, line in enumerate(lines, 1):
